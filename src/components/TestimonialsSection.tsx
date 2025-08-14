@@ -118,7 +118,7 @@ const TestimonialsSection = () => {
         </div>
 
         <div className="text-center mt-12">
-          <div className="inline-flex items-center space-x-4 bg-muted/50 rounded-full px-8 py-4">
+          <div className="flex justify-between lg:flex-row flex-col items-center space-y-2 space-x-4 bg-muted/50 rounded-full px-8 py-4">
             <div className="flex items-center space-x-1">
               {renderStars(5)}
             </div>
